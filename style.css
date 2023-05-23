@@ -1,12 +1,39 @@
+body {
+    background-image: url(galaxy\ background.jpg);
+    background-size: cover;
+}
 div {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 3px solid lightskyblue;
     padding: 10px;
 }
-
+.container {
+    background-color: white;
+    font-family: sans-serif;
+}
+.container2 {
+    background-color: lightskyblue;
+}
 
 h1 {
-    color: purple;
+    color: lightcoral;
     text-align: center;
+}
+button {
+    position: absolute;
+    left :70%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    height: 30px;
+    background-color: hotpink;
+    border-style: hidden;
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+#list {
+    background-color: white;
+    color: blueviolet;
+    border-radius: 25px;
 }
