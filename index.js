@@ -17,7 +17,10 @@ let myClick = () => {
         x.setAttribute("type", "text")
         x.setAttribute("placeholder", "Add new task.");
         newTask.appendChild(x);
+        var y = document.createElement("INPUT");
+        y.setAttribute("type", "checkbox");
         let list = document.querySelector("#list");
+        list.appendChild(y);
         list.appendChild(newTask);
     } else {
         alert("Action cancelled.");

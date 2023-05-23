@@ -11,15 +11,22 @@
     <div class="container">
         <h1>My Todo List</h1>
         <button id="button1">Add Todo List</button>
-        <script src="./index.js"> </script> 
+        
     </div>
     <div class="container2">
-        <section class="card-body">
-            <ul id="list">
+        <div class="wrapper">
+            <div class="task">
+                <form id="form" onsubmit="return false;">
+                    <input type="text" id="userInput" />
+                    <input type="submit" id="submit" onclick="othername();" />
+                </form>
+            </div>
+            <div class="added-task">
                 
-            </ul>
-        </section>
+            </div>
+        </div>
 
     </div>
+    <script src="./index2.js"> </script> 
 </body>
 </html>

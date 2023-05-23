@@ -2,6 +2,7 @@ body {
     background-image: url(galaxy\ background.jpg);
     background-size: cover;
 }
+
 div {
     margin: auto;
     width: 50%;
@@ -14,12 +15,14 @@ div {
 }
 .container2 {
     background-color: lightskyblue;
+    height: 100%;
 }
 
 h1 {
     color: lightcoral;
     text-align: center;
 }
+
 button {
     position: absolute;
     left :70%;
@@ -37,3 +40,23 @@ button {
     color: blueviolet;
     border-radius: 25px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: aquamarine;
+    width: 75%;
+  }
+  .task {
+    background-color: white;
+    width: 90%;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    border-radius: 10px;
+  }
+
+  
+
+  
